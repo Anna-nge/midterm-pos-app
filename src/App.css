@@ -1,0 +1,64 @@
+.order-form {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  max-width: 700px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.form-row label {
+  min-width: 100px;
+}
+
+.amount-label {
+  min-width: auto;
+  margin-left: 12px;
+}
+
+select, input[type="number"] {
+  padding: 3px 6px;
+}
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.grand-total {
+  margin-top: 6px;
+  font-weight: bold;
+}
